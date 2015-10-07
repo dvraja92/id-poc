@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Font*/
+@font-face {
+    font-family: 'OpenSans-Light' ,sans-serif;
+	url:src('fonts/OpenSans-Light.ttf') format('truetype');
+}
+
+body{
+	background:url(../images/background_image.jpg);
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size: cover;
+	margin:0 auto;
+	padding:0px 0px;
+	font-family: 'Roboto' , sans-sarif;
+	font-size:14px;
+	line-height:18px;
+}
+.white_bg{
+	width:320px;
+	height:550px;
+	overflow:hidden;
+	position:relative;
+	margin: 6.2em auto;
+	background-image:url(../images/bg.png);
+	/*background: -webkit-gradient(linear, 15% 60%, 25%, top, #198182, #8eba9f, #198182);
+  	background: -webkit-linear-gradient(top, #198182, #8eba9f, #198182);/* Safari 5.1, Chrome 10+ */
+  	/*background: -moz-linear-gradient(top, #198182, #8eba9f, #198182);/* Firefox 3.6+ */
+  	/*background: -ms-linear-gradient(top, #198182, #8eba9f, #198182);/* IE 10 */
+  	/*background: -o-linear-gradient(top, #198182, #8eba9f, #198182); /* Opera 11.10+ */
+	background-position:center center;
+	background-repeat: no-repeat;
+    background-size: cover;
+	box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+	border-radius:5px;
+}
+.left_margin{
+	padding:15px 15px;
+}
+.img-crcl{
+  display: block;
+  width:150px;
+  height: 150px;
+  margin: 0em auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-border-radius: 99em;
+  -moz-border-radius: 100em;
+  border-radius: 100em;
+  border: 5px solid #eee;
+  /*box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3); */
+}
+.info{
+	text-align:left;
+	margin: 1%;
+	line-height: 2.1em;
+	font-size: 14px;
+	color:#000;
+	text-shadow:1px 0px 0 #ffffff, 1px 1px 0 #ffffff;
+}
+.img_pro{
+	margin: 1em 0em;
+}
+.f_color{
+	color:#fff;
+	font-size:14px;
+	padding-left:5px;
+	padding-right:5px;
+	text-shadow:1px 1px 0 #000, 1px 1px 0 #000;
+}
+.f_gap{
+	padding-left:5px;
+	padding-right:5px;
+}
+.flip {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+
+}
+.flip:hover {
+  transform: rotateY(180deg);
+}
+.flip .side {
+  backface-visibility: hidden;
+  position: absolute;
+
+}
+.flip .back {
+  transform: rotateY(180deg);
+}
+.main{
+	position:relative;
+	border:1px solid #999;
+	border-radius:5px;
+	margin:7em auto;
+	padding:25px 25px;
+}
+.submit{
+	position:relative;
+	text-align:left;
+	padding:0.5em 0em;
+}
+.qr_url{
+	margin-top:10px;
+}
+input[type="submit"] {
+    background: #03bef0 none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 13px 43px;
+}
